@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2065c29e-85ef-4b7a-87e0-54b49ea0757c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ProjectId" id="1kVRXfDNWLgULqe3eb6kdotmO4d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi" />
+      <recent name="$PROJECT_DIR$/android/app/src/main" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2065c29e-85ef-4b7a-87e0-54b49ea0757c" name="Default Changelist" comment="" />
+      <created>1605783812259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605783812259</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="61" width="1080" height="631" key="AVDManager" timestamp="1605838324105">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="61" width="1080" height="631" key="AVDManager/0.0.1280.800@0.0.1280.800" timestamp="1605838324105" />
+    <state x="100" y="84" width="1080" height="611" key="AVDManager/0.25.1280.775@0.25.1280.775" timestamp="1605833390134" />
+    <state x="437" y="155" key="AndroidProcessChooserDialog" timestamp="1605838189847">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="437" y="155" key="AndroidProcessChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1605838189847" />
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1605839551392">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1605839551392" />
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1605803999101" />
+    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1605839551381">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="187" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1605839551381" />
+    <state width="1238" height="181" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1605803999099" />
+    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1605839551379">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="187" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1605839551379" />
+    <state width="1238" height="181" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1605803999097" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1605839551392">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="187" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1605839551392" />
+    <state width="1238" height="181" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1605803999100" />
+    <state x="0" y="17" width="613" height="783" key="find.popup" timestamp="1605831732538">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="0" y="17" width="613" height="783" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1605831732538" />
+  </component>
+</project>

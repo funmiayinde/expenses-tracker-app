@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/155137139/fluttertoast.iml" filepath="$PROJECT_DIR$/.idea/modules/155137139/fluttertoast.iml" group="android/fluttertoast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1493063763/package_info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1493063763/package_info.iml" group="android/package_info" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/44221681/path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/44221681/path_provider.iml" group="android/path_provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-185988267/path_provider_linux.iml" filepath="$PROJECT_DIR$/.idea/modules/-185988267/path_provider_linux.iml" group="android/path_provider_linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/307756824/path_provider_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/307756824/path_provider_macos.iml" group="android/path_provider_macos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/952441036/shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/952441036/shared_preferences.iml" group="android/shared_preferences" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/277449756/shared_preferences_linux.iml" filepath="$PROJECT_DIR$/.idea/modules/277449756/shared_preferences_linux.iml" group="android/shared_preferences_linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/684572758/shared_preferences_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/684572758/shared_preferences_macos.iml" group="android/shared_preferences_macos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1569239363/shared_preferences_web.iml" filepath="$PROJECT_DIR$/.idea/modules/1569239363/shared_preferences_web.iml" group="android/shared_preferences_web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1142016088/sqflite.iml" filepath="$PROJECT_DIR$/.idea/modules/-1142016088/sqflite.iml" group="android/sqflite" />
+    </modules>
+  </component>
+</project>

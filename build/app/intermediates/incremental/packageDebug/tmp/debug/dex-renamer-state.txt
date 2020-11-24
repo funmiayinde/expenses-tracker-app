@@ -1,0 +1,7 @@
+#Fri Nov 20 03:17:22 WAT 2020
+base.0=/Users/mac/Downloads/expense-envato-version/build/app/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/mac/Downloads/expense-envato-version/build/app/intermediates/transforms/dexMerger/debug/0

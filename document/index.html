@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index.html</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>Expense - Project Structure Document</p>
+<h1 id="expense-manager---flutter">Expense Manager - Flutter</h1>
+<p>An Expense Manager Application developed using flutter with most useful features to manage daily expense., Following are information about Project Structure and files.</p>
+<h2 id="getting-started">Getting Started:</h2>
+<p>A few resources to get you started if you’re new to Flutter:</p>
+<ul>
+<li><a href="https://flutter.dev/docs/get-started/codelab">Lab: Write your first Flutter app</a></li>
+<li><a href="https://flutter.dev/docs/cookbook">Cookbook: Useful Flutter samples</a></li>
+</ul>
+<p>For help getting started with Flutter, view our<br>
+<a href="https://flutter.dev/docs">online documentation</a>, which offers tutorials,<br>
+samples, guidance on mobile development, and a full API reference.</p>
+<h3 id="now-as-you-have-knowledge-of-flutter-you-can-easily-run-this-project">Now, As you have knowledge of Flutter you can easily run this project:</h3>
+<p>1: Open this project in your preferable IDE Android Studio or VS Code.</p>
+<p>2: <strong>Get Plugins:</strong> Execute flutter pub get command, For the first to get all implemented plugin codes run Pub get command of pubspec.yaml file.</p>
+<p>3: <strong>Connect device and run:</strong> After successful execution of pub get command all plugin import errors will be gone and you can run this project.</p>
+<p>Enjoy having awesome Expense Manager Application :)</p>
+<hr>
+<h2 id="project-structure">Project Structure:</h2>
+<h3 id="architecture">Architecture</h3>
+<p><img src="images/architecture.png" alt="Architecture"></p>
+
+<h4 id="the-app-has-following-modules">The app has following modules:</h4>
+<h4 id="base">1. <strong>base:</strong></h4>
+<p>It contains base-view files (interface).<br>
+This interface which will be implemented by any of the UI widget, and will be having common methods, If you want to have common thing to do for all widgets you can add your common method to this.</p>
+<hr>
+<h4 id="database">2. <strong>database:</strong></h4>
+<p>Contains all the db related files which includes DatabaseHelper, Providers, Tables and other db related files.</p>
+<h4 id="helper-classes">Helper classes</h4>
+<ol>
+<li>
+<p><strong>AppDatabaseInfo</strong>:<br>
+It contains all the database related information, It implementing DBInfo, IMigrationTask class which provides database information and db migration support,<br>
+It having defination of whole database such as creating/updating or tables, database name, version and migration, If you want to do modification in your db you can refer this file in order to change the definations, any kind of db modification will be define here.</p>
+</li>
+<li>
+<p><strong>DBInfo</strong>:<br>
+An abstract class which having all abstract methods and variables which is implemented by AppDatabaseInfo class, You add/remove abstract method to this in order to improve db structure.</p>
+</li>
+<li>
+<p><strong>DBHelper</strong>:<br>
+DBHelper is singleton class, which is responsible of initilizing db and updating db if requre, it will open/close, and provide the instance of database.</p>
+</li>
+<li>
+<p><strong>Tables</strong>:<br>
+Which contains static const of all the table create queries, If you’re adding new table you can define table creation query to this file.</p>
+</li>
+</ol>
+<h4 id="data-classes">Data classes</h4>
+<ul>
+<li><strong>Model</strong> : Table class, contains all the table columns information.</li>
+<li><strong>Provider</strong> : Data Provider class, which responsible to perform all CRUD operation on perticular Table, In order do any operation on table you can define your query here to perform operation, All the data fetching, insertion or deleting operation defines here.</li>
+</ul>
+<hr>
+<h4 id="theme">3. <strong>theme:</strong></h4>
+<p>Contains main theme widget which is responsible of changing theme of whole application, and other helper classes.</p>
+<ol>
+<li>
+<p><strong>MultiTheme</strong><br>
+This is statefull widget which having params to get all themes, and builder, and returns builder with context and current theme, Used Stream builder to get notify through ThemeProvider whenever user request for change theme, it will rebuild the whole app which new theme color.</p>
+</li>
+<li>
+<p><strong>ThemeProvider:</strong><br>
+This is singleton, which is responsible of add/delete theme and changing of theme, Using provider we can get the defined colors of current selected theme.</p>
+</li>
+<li>
+<p><strong>ThemeColors:</strong><br>
+This is Model class which have primary colors variable defined, you can modifiy this model in order to add more colors as primary for theme data.</p>
+</li>
+<li>
+<p><strong>Themes:</strong><br>
+Defining all theme colors here,<br>
+This class is having all themes defination and const keys of theme colors, currently we have two theme in this project light and dark,<br>
+All the colors of light/dark theme is defined here if you want change any color such text, background, icon etc, you can define new or update the values of exitiing color in order to change the theme colors.</p>
+</li>
+</ol>
+<hr>
+<h4 id="ui">4. <strong>ui</strong>:</h4>
+<p>Contains all the UI widgets File To represent all data to user.</p>
+<p>All these folders will be having bloc, support and UI widget file where:</p>
+<p><strong>Bloc:</strong> Bloc is responsible to make data related operation based on request from UI widgets, Bloc is having all the data provider instance to perform db operation based on request.</p>
+<p><strong>UI-Widget:</strong> Responsible to represent data to user with different widgets, And will be having bloc instance to get data to represent.</p>
+<p><strong>Support:</strong> Will having all the supported widgets to represent particular module.</p>
+<hr>
+<h4 id="utils">5. <strong>utils</strong>:</h4>
+<p>It contains all the utility components.</p>
+<hr>
+<h4 id="package-reference-resources">Package reference resources:</h4>
+<ol>
+<li>RxDart: <a href="https://pub.dev/packages/rxdart">https://pub.dev/packages/rxdart</a></li>
+<li>Sqflite: <a href="https://pub.dev/packages/sqflite">https://pub.dev/packages/sqflite</a></li>
+<li>Shared Preferences: <a href="https://pub.dev/packages/shared_preferences">https://pub.dev/packages/shared_preferences</a></li>
+<li>Animated Icon Button: <a href="https://pub.dev/packages/animated_icon_button">https://pub.dev/packages/animated_icon_button</a></li>
+<li>Path Provider: <a href="https://pub.dev/packages/path_provider">https://pub.dev/packages/path_provider</a></li>
+<li>Date Utils: <a href="https://pub.dev/packages/date_util">https://pub.dev/packages/date_util</a></li>
+<li>Circular Chart: <a href="https://pub.dev/packages/charts_flutter">https://pub.dev/packages/charts_flutter</a></li>
+</ol>
+<hr>
+<h3 id="that’s-all-about-the-project-structure-and-setup-feel-free-to-ask-any-query-if-you-have.">That’s all about the project structure and setup, Feel free to ask any query if you have.</h3>
+</div>
+</body>
+
+</html>
